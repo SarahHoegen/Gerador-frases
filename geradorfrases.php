@@ -1,16 +1,4 @@
-<?php
-
-    $titulos = ["Vossa Majestade", "Dom", "Gamer"];
-    $qualidades= ["Chorar no cantiho da casa","Famosa rager","Mestre dos magos"];
-    $nome = "Sarah e cura";
-
-?>
-
-
-
-
-
-
+<?php include "logica.php" ?>
 
 <!doctype html>
 <html lang="en">
@@ -25,7 +13,7 @@
 
     <body>
 
-        <h2>Olá <? php echo $titulos[rand(0,2)]." $nome, " . $qualidades[rand(0,2)] ?> </h2>
+        <h2>Olá <?=  "$tit $nome, $qual "  ?> </h2>
 
     </body>
 
